@@ -29,11 +29,9 @@ h1{
     text-transform: capitalize;
     font-size: 45px;
     font-family: 'Acme', sans-serif;
+    text-shadow: 0 0 3px blue,
+        0 0 5px red;
     
-}
-
-h1:hover{
-    background: #09456d;
 }
 
 h2{
