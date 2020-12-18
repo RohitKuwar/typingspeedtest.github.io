@@ -20,7 +20,7 @@ const playGame = () => {
     let randomNumber = Math.floor(Math.random()*setOfWords.length);
     msg.innerText = setOfWords[randomNumber];
     let date = new Date();
-    let startTime = date.getTime();
+    startTime = date.getTime();
     btn.innerText = "Done";
 }
 
