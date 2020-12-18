@@ -28,7 +28,6 @@ const endPlay = () => {
     let date = new Date();
     let endTime = date.getTime();
     let totalTime = ((endTime - startTime)/1000);
-    console.log(Number.isNaN(totalTime));
     console.log(totalTime);
 
     let totalStr = typedWords.value;
